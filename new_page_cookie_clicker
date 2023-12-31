@@ -30,7 +30,7 @@ language_barrier = driver.find_element(By.ID, value="langSelect-EN")
 #language_barrier1 = driver.find_element(By.CSS_SELECTOR, '#languageSelectHeader div')
 language_barrier.click()
 
-asdasda
+
 cookie = driver.find_element(By.ID, "bigCookie")
 game_is_on = True
 while game_is_on:
